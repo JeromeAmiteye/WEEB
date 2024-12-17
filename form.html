@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        
+        
+        <title>Ayurveda - Patient Enrollment</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    </head>
+
+    <body>
+        <a id="top"></a>
+        <section class="sub-header-form">
+            <nav>
+                <a href="index.html"><img src="images/logoimage.png"></a>
+                
+                <div class="nav-links">
+                   
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Services.html">Service</a></li>
+                        <li><a href="Appointment.html">Appointment</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        
+                    </ul>
+
+                </div>
+                
+            </nav>
+            <h1>Patient Registration Form</h1>
+
+
+
+        </section>
+        
+        <!---- Form ---->
+
+        
+                <section class="ach">
+                    <div class="row">
+                        <form id="userForm" class="comment-form">
+                            <h3>New Patient Enrollment</h3>
+                            <br><br>
+                            <h5>Name</h5>
+                            <input type="text" id="name" placeholder="Enter Name" required>
+                            <br><br>
+                            <h5>Date of Birth</h5>
+                            <input type="date" id="dob" required>
+                            <br><br>
+                            <h5>Gender</h5>
+                            <select id="gender" name="gender" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                            <br><br>
+                            <h5>Contact Number</h5>
+                            <select id="countrycode" name="countrycode" required>
+                                
+                                <option value="GH">Ghana</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="KE">Kenya</option>
+                                <option value="UG">Uganda</option>
+                                <option value="CI">Cote D'Ivoire</option>
+                                <option value="EG">Egypt</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="US">United States</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="CA">Canada</option>
+                                <option value="IN">India</option>
+                                <option value="CN">China</option>
+                                <option value="BR">Brazil</option>
+                                <option value="AU">Australia</option>
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                                <option value="RU">Russia</option>
+                                <option value="JP">Japan</option>
+                                <option value="IT">Italy</option>
+                                <option value="ES">Spain</option>
+                                
+                            </select>
+                            <input type="tel" id="contact" placeholder="xxxxxxxxxx" maxlength="10" required>
+
+                            <br><br>
+                            <h5>Nationality</h5>
+                            <select id="nationality" name="nationality" required>
+                                
+                                <option value="GH">Ghana</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="KE">Kenya</option>
+                                <option value="UG">Uganda</option>
+                                <option value="CI">Cote D'Ivoire</option>
+                                <option value="EG">Egypt</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="US">United States</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="CA">Canada</option>
+                                <option value="IN">India</option>
+                                <option value="CN">China</option>
+                                <option value="BR">Brazil</option>
+                                <option value="AU">Australia</option>
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                                <option value="RU">Russia</option>
+                                <option value="JP">Japan</option>
+                                <option value="IT">Italy</option>
+                                <option value="ES">Spain</option>
+
+                            </select>
+
+                            <br><br>
+                            <h5>Country of Residence</h5>
+                            <select id="country" name="country" required>
+                                
+                                <option value="GH">Ghana</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="KE">Kenya</option>
+                                <option value="UG">Uganda</option>
+                                <option value="CI">Cote D'Ivoire</option>
+                                <option value="EG">Egypt</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="US">United States</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="CA">Canada</option>
+                                <option value="IN">India</option>
+                                <option value="CN">China</option>
+                                <option value="BR">Brazil</option>
+                                <option value="AU">Australia</option>
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                                <option value="RU">Russia</option>
+                                <option value="JP">Japan</option>
+                                <option value="IT">Italy</option>
+                                <option value="ES">Spain</option>
+                            </select>
+
+                            <br><br>
+                            <h5>Appointment</h5>
+                            <select id="appointment" name="appointment" size="5" multiple="multiple" required>
+                            <option value="Acupuncturist">Acupuncturist</option>
+                            <option value="Consultant">Consultant</option>
+                            <option value="Chiropractor">Chiropractor</option>
+                            <option value="Rehab">Rehab</option>
+                            <option value="Nutritionist">Nutritionist</option>
+                            <option value="Emergency Care">Emergency Care</option>
+                            <option value="Endocrinologist">Endocrinologist</option>
+                            <option value="Eye-Care">Eye Care</option>
+                            <option value="Fertility-Doctors-for-Infertility">Fertility Doctors for Infertility</option>
+                            <option value="Medical-Tourism">Medical Tourism</option>
+                            <option value="Obstetrician">Obstetrician</option>
+                            <option value="Oncologist">Oncologist</option>
+                            <option value="Osteopath">Osteopath</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Physician">Physician</option>
+                            <option value="Podiatrist">Podiatrist</option>
+                            <option value="Sports-Injury-Clinic">Sports Injury Clinic</option>
+                            <option value="STD and HIV Testing">STD and HIV Testing</option>
+                            <option value="Veterinary-Services">Veterinary Services</option>
+                            <option value="Gym-and-Fitness">Gym and Fitness</option>
+                            </select>
+        
+                            <br><br>
+                            <h5>Email</h5>
+                            <input type="email" id="email" placeholder="Enter Email" required>
+                            <br><br>
+                             <h5>Additional Information</h5>
+                             <textarea id="additionalInfo" rows="5" placeholder="Additional Information"></textarea>
+                             <br><br>
+                             <button type="submit" class="hero-btn red-btn">Enroll</button>
+                             </form>
+                             <div class="about-col">
+                            <img src="images/form.jpg" >
+                            <br><br><br><br><br><br><br>
+                            <img src="images/form2.jpg" >
+                        </div>
+                    </div>
+
+       
+
+      <!-- Footer -->
+       <section class="footer">
+      <h4>About Us</h4>
+      <p>For Further Information, You can Call Us On +233 54 855 1515. Or Visit Us On:</p>
+    
+     <div class="icons">
+       <a href="https://facebook.com/profile.php?id=100070102924448"> <i class="fa fa-facebook"></i></a>
+       <a href="https://twitter/sidwah_barrock"> <i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/ayurvedaherbalcenter"><i class="fa fa-instagram"></i></a>
+       <a href="https://t.me/sidwah"><i class="fa fa-telegram"></i></a>
+     </div>
+     <p>Made with <i class="fa fa-heart-o"></i> by Amiteye Jerome Amanor</p>
+     <br><br><a href="#top"><img src="images/up.png">  Back To Top</a>
+       </section>
+       <script src="form.js"></script>
+
+    </body>
+</html>
+
+<!-- Tutorials from https://youtu.be/P6YQUAWJbwc and w3schools.com -->
